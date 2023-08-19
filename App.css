@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.responsive-image {
+  width: 100%;
+  height: 300px;
+  object-fit:contain;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(Roboto-Regular.ttf);
+}
+
+html
+{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  text-align: center;
+  background-color: #1D4355;
+}
+
+.btn{
+  background-color: #30708e;
+  border-color: #1d4355;
+  color: white;
+
+}
+
+.btn:hover
+{
+  background-color: #224e63;
+  border-color: #1d4355;
+}
+
+.btn-active
+{
+  background-color: #326d88;
+}
+
+.vh-100
+{
+  height: 100vh!important;
+}
+
+.btn-group{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.btn-active:hover
+{
+ background-color: #326d88;
+}
+
+.my-image1
+{
+  object-fit: cover;
+  height: 40%;
+  width: 70%;
+}
+
+.my-image2
+{
+  object-fit: cover;
+  height: 100%;
+  width: 55%;
+}
+
+.my-image3
+{
+  object-fit: cover;
+  height: 100%;
+  width: 40%;
+}
+
+#calculator
+{
+  margin: auto;
+  padding: 10px;
+  background-color: #E69A8DFF;
+  width: 40%;
+  height: 100%;
+  border-radius: 10px
+}
+
+#measure
+{
+  width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+.input-control textarea{
+  resize: none;
+}
+
+.custom-height
+{
+  height: 100px;
+}
+
